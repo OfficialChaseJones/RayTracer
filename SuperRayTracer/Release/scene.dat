@@ -1,0 +1,78 @@
+camera 0 0 -1 0 0 0.5
+antialias 3 
+size      800 800        
+raytracedepth 6
+
+light -8 9 -4     1 1 1  
+light 4 3  -1     1 1 1  
+
+lighting 0 0 1   0 1
+refraction 0 0
+reflection 0
+
+sphere -8 1 37 6 greenLand.bmp
+
+lighting 0.3 0.2 0.7   0.5 0.5
+cylinder 5 -8 27 1 20
+cylinder -8 -5 17 1 20
+cylinder 5 -8 7 1 20
+
+lighting 0.0 0.0 0.0   0.5 0.5
+refraction 0.5 1.19
+reflection 0.5
+sphere 4 -3.5 14 1.5 NULL
+sphere 7 -3.5 14 1.5 NULL
+sphere 4 -3.5 18 1.5 NULL
+sphere 7 -3.5 18 1.5 NULL
+
+
+lighting 0.5 0.45 0.4   0.8 0.8
+refraction 0 0
+reflection 0
+polygon 4
+       -15 -5 -1
+       -15 -5 50
+        15 -5 50
+        15 -5 -1
+lighting 0.5 0.0 0.0   0.8 0.8
+polygon 4
+       14.9 -5 50
+       14.9 15 50
+       15   15 -1
+       15   -5 -1
+lighting 0.5 0.4 0.3   0.8 0.8
+polygon 4
+        15 15 -1
+        15 15 50
+       -15 15 50
+       -15 15 -1
+lighting 0.5 0.0 0.0   0.8 0.8
+polygon 4
+       -15   -5 49
+       -15   15 50
+        15   15 50
+        15   -5 49
+lighting 0.1 0.1 0.1   0.8 0.8
+refraction 0 0
+reflection 1
+polygon 4
+       -15 -5 -1
+       -15 15 -1
+       -14.9 15 50
+       -14.9 -5 50
+
+lighting 0.3 0.2 0.7   0.5 0.5
+refraction 0.8 1.19
+reflection 0.4
+cylinder -4 -5 10 1.8 3
+
+lighting 0.36 0.33 0.30   0.5 0.5
+refraction 0 0
+reflection 0
+bottle -1 -5 22 2 8
+       1 1
+       2 4
+       5 -1
+       8 1.5
+
+
